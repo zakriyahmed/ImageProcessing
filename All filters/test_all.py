@@ -56,6 +56,6 @@ for name in masks:
     result = cv2.merge((out0,out1,out2))
     cv2.imshow(name,result)
     #if want to save image
-    #cv2.imwrite('%s_color.png'%name,out)
+    #cv2.imwrite('%s_color.png'%name,result)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
